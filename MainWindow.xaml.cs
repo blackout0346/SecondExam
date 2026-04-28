@@ -29,10 +29,23 @@ namespace secondExam
 
         public MainWindow()
         {
-            db.Database.EnsureDeleted();
-            db.Database.EnsureCreated();
+            //db.Database.EnsureDeleted();
+            //db.Database.EnsureCreated();
             InitializeComponent();
+            Uri iconUri = new Uri("Master_pol.ico", UriKind.RelativeOrAbsolute);
+            this.Icon = BitmapFrame.Create(iconUri);
+            search.TextChanged += search_TextChanged;
+            selectload();
+            
 
+
+        }
+        async void selectload()
+        {
+            await select();
+        }
+        void LoadDb()
+        {
             ParseFromCSV parseFromCSV = new ParseFromCSV(db);
             parseFromCSV.csvAddingtypeProduct();
             parseFromCSV.csvAdding();
@@ -40,65 +53,35 @@ namespace secondExam
             parseFromCSV.csvAddingPartner();
 
             parseFromCSV.csvAddingPartnerProductsa();
-            select();
-
         }
-        void select()
+        async Task select()
         {
             db = new AppDbContext();
-            //var data1 = db.TypeMaterial
-            //    .Select(p => p)
-            //    .ToList();
-            //table1.ItemsSource = data1;
+         
 
-            var data2 = db.PartnerProducts
+            var query = await db.Products
+            .Include(p => p.typeProduct)
             .Select(p => new
             {
-                p.Partner.NameParntersPlace,
-                p.Product.Name,
-                p.CountProducts,
-                p.DateSale,
-                p.Partner.DirectionName
+                p.name,
+                p.MinPriceForPartner,
+                p.typeProduct.Name,
+                p.Article,
+
             })
-                .ToList();
-            table2.ItemsSource = data2;
-
-            //var data3 = db.TypePartner
-            //    .Select(p => p.Partners)
-            //    .ToList();
-            //table3.ItemsSource = data3;
-
-            //var data4 = db.TypeProduct
-            //    .Select(p => p)
-            //    .ToList();
-            //table4.ItemsSource = data4;
-
-            //var data5 = db.Products
-            //    .Select(p => new
-            //    {
-            //        p.Name,
-            //        p.MinPriceForPartner,
-            //        p.typeProduct,
-            //        p.Article
-
-
-            //    })
-            //    .ToList();
-            //table5.ItemsSource = data5;
-
-            //var data6 = db.Partner
-            //       .Select(p => new
-            //       {
-            //           p.DirectionName,
-            //           p.NameParntersPlace,
-            //           p.Rate
-
-
-            //       })
-            //    .ToList();
-            //table6.ItemsSource = data6;
-
+           
+            .ToListAsync();
+            if (!string.IsNullOrWhiteSpace(search.Text))
+            {
+                var filter = query.Where(p => EF.Functions.Like(p.name, $"%{search.Text}%"));
+            }
+            ProductTable.ItemsSource = query;
+            counts.Text = $"Всего записей: {query.Count}";
         }
 
+        private void search_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            Dispatcher.Invoke(() => select());
+        }
     }
 }

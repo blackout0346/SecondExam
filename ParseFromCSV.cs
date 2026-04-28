@@ -27,6 +27,9 @@ namespace secondExam
         [Name("Минимальная стоимость для партнера")]
 
         public decimal MinPriceForPartner { get; set; }
+
+        [Name("Тип продукции")]
+        public string typeproducts { get; set; }
     }
 
     class PartnerProductss
@@ -48,9 +51,10 @@ namespace secondExam
 
 
         [Name("Тип продукции")]
-        public string Name { get; set; }
+        public string name { get; set; }
         [Name("Коэффициент типа продукции")]
         public decimal Discount { get; set; }
+
 
 
 
@@ -162,8 +166,9 @@ namespace secondExam
                     var data = csv.GetRecords<TypeProducts>().ToList();
                     foreach (var item in data)
                     {
-                        Debug.WriteLine($"{item.Name}, {item.Discount}");
-                        this.TypeProduts = new TypeProduct() { Name = item.Name, Discount = item.Discount };
+                        Debug.WriteLine($"{item.name}, {item.Discount}");
+
+                        this.TypeProduts = new TypeProduct() { Name = item.name, Discount = item.Discount };
                         db.Add(this.TypeProduts);
                         db.SaveChanges();
                     }
@@ -186,8 +191,18 @@ namespace secondExam
                     foreach (var item in data)
                     {
 
-                        Productss = new Products() { Name = item.Name, Article = item.Article, MinPriceForPartner = item.MinPriceForPartner, typeProduct = TypeProduts };
-                        db.Add(Productss);
+                        var type = db.TypeProduct.FirstOrDefault(f => f.Name == item.typeproducts);
+                        if (type != null)
+                        {
+                            var exesting = db.Products.FirstOrDefault(p => p.typeProduct.Id == type.Id);
+                            if(exesting == null)
+                            {
+                                Productss = new Products() { name = item.Name, Article = item.Article, MinPriceForPartner = item.MinPriceForPartner, typeProduct = type };
+
+                                db.Add(Productss);
+                            }
+                        }
+                       
                         db.SaveChanges();
                     }
 
@@ -209,7 +224,7 @@ namespace secondExam
                     {
                         var partner = db.Partner.FirstOrDefault(p => p.NameParntersPlace == item.NamePartner);
                         
-                        var product = db.Products.FirstOrDefault(p => p.Name == item.ProductName);
+                        var product = db.Products.FirstOrDefault(p => p.name == item.ProductName);
                         if (partner != null && product != null)
                         {
                             var exesting = db.PartnerProducts.FirstOrDefault(p => p.Partner.Id == partner.Id && p.Product.Id == product.Id && p.DateSale == item.DateSale);

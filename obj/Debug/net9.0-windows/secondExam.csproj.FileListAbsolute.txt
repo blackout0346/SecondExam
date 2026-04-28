@@ -62,3 +62,4 @@ C:\Users\smira\source\repos\secondExam\bin\Debug\net9.0-windows\Microsoft.Entity
 C:\Users\smira\source\repos\secondExam\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\smira\source\repos\secondExam\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\smira\source\repos\secondExam\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\smira\source\repos\secondExam\obj\Debug\net9.0-windows\secondExam.sourcelink.json

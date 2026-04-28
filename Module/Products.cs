@@ -13,7 +13,7 @@ namespace secondExam.Module
         [Required]
         public int Id { get; set; }
         [Required]
-        public string Name { get; set; }
+        public string name { get; set; }
         [Required]
         public int TypeProductsId { get; set; }
         [Required]

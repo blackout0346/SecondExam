@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:secondExam"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="900">
+        Title="MainWindow" Height="500" Width="900"
+      
+        >
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition>
@@ -13,22 +15,25 @@
           
             
         </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition>
+        <Grid.RowDefinitions >
+            <RowDefinition >
             </RowDefinition>
             <RowDefinition>
             </RowDefinition>
             <RowDefinition>
             </RowDefinition>
         </Grid.RowDefinitions>
-        <TextBlock Text="Продукция"></TextBlock>
-        <TextBox x:Name="search" Margin="60"></TextBox>
-        <DataGrid x:Name="table2" Grid.Row="1"   ></DataGrid>
-        <StackPanel Grid.Row="2" HorizontalAlignment="Left"  Orientation="Horizontal">
-            <Button Width="100" Height="50" Content="Добавить" ></Button>
-            <Button Width="100" Height="50" Content="Изменить"></Button>
-            <Button Width="100" Height="50" Content="Удалить"></Button>
-            <Button Width="100" Height="50" Content="Назад"></Button>
+
+        <TextBlock Text="Продукция" FontSize="20" FontFamily="Segoe UI"  Grid.Row="0"  Background="#F4E8D3" ></TextBlock>
+        <TextBlock Text="Поиск:" Grid.Row="0" FontSize="16" VerticalAlignment="Center" Margin="10" ></TextBlock>
+        <TextBox x:Name="search" Grid.Row="0" Height="40" Width="300" Margin="70, 10" HorizontalAlignment="Left" TextChanged="search_TextChanged"  ></TextBox>
+        <DataGrid x:Name="ProductTable" Grid.Row="1"></DataGrid>
+        <StackPanel Grid.Row="2" Grid.Column="1"  Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+            <Button Width="100" Height="50" Margin="10" Foreground="White" Content="Добавить" Background="#67BA80" ></Button>
+            <Button Width="100" Height="50" Margin="10" Foreground="White" Content="Изменить" Background="#67BA80"></Button>
+            <Button Width="100" Height="50" Margin="10" Foreground="White" Content="Удалить" Background="#F1404A"></Button>
+            <Button Width="100" Height="50" Margin="10" Foreground="White" Content="Назад" Background="#F1404A"></Button>
+            <TextBlock x:Name="counts" Text="Всего записей" VerticalAlignment="Center"></TextBlock>
         </StackPanel>
 
     </Grid>
