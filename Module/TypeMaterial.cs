@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace secondExam.Module
 {
-    class TypeMaterial
+    public class TypeMaterial
     {
         [Key]
         [Required]

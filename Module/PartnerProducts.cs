@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace secondExam.Module
 {
-    class PartnerProducts
+    public class PartnerProducts
     {
         [Key]
         [Required]
@@ -18,6 +18,8 @@ namespace secondExam.Module
         public int PartnersId { get; set; }
         [Required]
         public int CountProducts { get; set; }
+        [Required]
+        public decimal TotalPrice { get; set; }
         [Required]
         public DateTime DateSale { get; set; }
         [Required]

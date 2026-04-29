@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\smira\source\repos\secondExam\App.xaml
-11407045341
+82002188013
 
-12-1865496287
+19385322443
 219-1106613124
-MainWindow.xaml;
+View\AddingPartners.xaml;View\AddingProduct.xaml;View\EditPartners.xaml;View\EditProducts.xaml;View\HistorySale.xaml;View\ItemPartners.xaml;View\PartnersShow.xaml;View\ProductsU.xaml;
 
 False
 

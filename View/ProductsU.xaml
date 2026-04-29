@@ -1,0 +1,65 @@
+﻿<Window x:Class="secondExam.ProductsU"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:secondExam"
+        mc:Ignorable="d"
+        Title="Products" Height="500" Width="900"
+      
+        >
+    <Window.Resources>
+
+        <Style TargetType="{x:Type TextBlock}"  >
+            <Setter Property="FontFamily" Value="Segoe UI" ></Setter>
+        </Style>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="FontFamily" Value="Segoe UI"></Setter>
+        </Style>
+        <Style TargetType="{x:Type DataGrid}">
+            <Setter Property="FontFamily" Value="Segoe UI"></Setter>
+        </Style>
+
+
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition>
+            </ColumnDefinition>
+
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions >
+            <RowDefinition >
+            </RowDefinition>
+            <RowDefinition>
+            </RowDefinition>
+            <RowDefinition>
+            </RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Продукция" FontSize="20"   Grid.Row="0"  Background="#F4E8D3" ></TextBlock>
+        <TextBlock Text="Поиск:" Grid.Row="0" FontSize="16" VerticalAlignment="Center" Margin="10" ></TextBlock>
+        <TextBox x:Name="search" Grid.Row="0" Height="40" Width="300" Margin="70, 10" HorizontalAlignment="Left" TextChanged="search_TextChanged"  ></TextBox>
+        <DataGrid x:Name="ProductTable" Grid.Row="1" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Название" Binding="{Binding name}"/>
+                <DataGridTextColumn Header="Артикул" Binding="{Binding Article}"/>
+                <DataGridTextColumn Header="Тип" Binding="{Binding typeProduct.Name}"/>
+                <DataGridTextColumn Header="Минимальная цена для партнёров" Binding="{Binding MinPriceForPartner}"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Row="2" Grid.Column="1"  Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+            <Button Width="100" Height="50" Margin="10" Foreground="White" Content="Добавить" Background="#67BA80" Click="Button_Click" ></Button>
+            <Button Width="100" Height="50" Margin="10" Foreground="White" Content="Изменить" Background="#67BA80" Click="Button_Click_3"></Button>
+            <Button Width="100" Height="50" Margin="10" Foreground="White" Content="Удалить" Background="#F1404A" Click="Button_Click_2"></Button>
+            <Button Width="100" Height="50" Margin="10" Foreground="White" Content="Назад" Background="#F1404A" Click="Button_Click_1"></Button>
+            <TextBlock x:Name="counts" Text="Всего записей" VerticalAlignment="Center"></TextBlock>
+        </StackPanel>
+
+
+    </Grid>
+</Window>

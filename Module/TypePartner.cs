@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace secondExam.Module
 {
-    internal class TypePartner
+    public class TypePartner
     {
         [Key]
         [Required]

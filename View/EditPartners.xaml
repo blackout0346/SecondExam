@@ -1,0 +1,71 @@
+﻿<Window x:Class="secondExam.View.EditPartners"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:secondExam.View"
+        mc:Ignorable="d"
+        Title="EditPartners" Height="450" Width="800">
+    <Window.Resources>
+
+        <Style TargetType="{x:Type TextBlock}"  >
+            <Setter Property="FontFamily" Value="Segoe UI" ></Setter>
+            <Setter Property="FontSize" Value="15" ></Setter>
+        </Style>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="FontFamily" Value="Segoe UI"></Setter>
+            <Setter Property="Width" Value="100"></Setter>
+            <Setter Property="Height" Value="50"></Setter>
+        </Style>
+        <Style TargetType="{x:Type DataGrid}">
+            <Setter Property="FontFamily" Value="Segoe UI"></Setter>
+        </Style>
+
+
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*">
+            </ColumnDefinition>
+            <ColumnDefinition Width="*">
+            </ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions >
+            <RowDefinition >
+            </RowDefinition>
+            <RowDefinition Height="auto">
+            </RowDefinition>
+            <RowDefinition>
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1"  Orientation="Vertical">
+            <TextBlock Text="Тип организации *"></TextBlock>
+            <ComboBox x:Name="typeOrg">
+                <TextBlock> OOO</TextBlock>
+                <TextBlock> ИП</TextBlock>
+            </ComboBox>
+            <TextBlock Text="Наименование организации *"></TextBlock>
+            <TextBox x:Name="NameOrg"></TextBox>
+            <TextBlock Text="ФИО директора *"></TextBlock>
+            <TextBox x:Name="FIOdirectory"></TextBox>
+            <TextBlock Text="Телефон *"></TextBlock>
+            <TextBox x:Name="Number"></TextBox>
+            <TextBlock Text="Email *"></TextBlock>
+            <TextBox x:Name="email"></TextBox>
+            <TextBlock Text="Юридический адрес *"></TextBlock>
+            <TextBox x:Name="URadress" ></TextBox>
+            <TextBlock Text="ИНН *"></TextBlock>
+            <TextBox x:Name="INN" ></TextBox>
+            <TextBlock Text="Рейтинг (0-10) *"></TextBlock>
+            <TextBox x:Name="Rate" ></TextBox>
+
+        </StackPanel>
+        <TextBlock  Grid.Column="0" Grid.ColumnSpan="2" Text="Редактирование партнёров" FontSize="20" FontWeight="Bold" Grid.Row="0" Padding="10, 10"  Background="#F4E8D3" ></TextBlock>
+        <TextBlock Text="Редактор партнёров" Padding="10, 40"></TextBlock>
+        <Button  Grid.Column="0"  Grid.Row="3" Foreground="White" Content="Принять" HorizontalAlignment="Center" Background="#67BA80" Click="Button_Click" ></Button>
+        <Button  Grid.Column="1"  Grid.ColumnSpan="2" Grid.Row="3" Foreground="White" Content="Отмена" HorizontalAlignment="Center" Background="#F1404A" Click="Button_Click_1"></Button>
+
+
+    </Grid>
+</Window>

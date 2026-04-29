@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace secondExam.Module
 {
-    class Partner
+    public class Partner
     {
         [Key]
         [Required]
@@ -28,7 +28,7 @@ namespace secondExam.Module
         [Required]
         public string INN { get; set; }
         [Required]
-        public int Rate { get; set; }
+        public string Rate { get; set; }
         [Required]
         public TypePartner typePartners { get; set; }
         [Required]

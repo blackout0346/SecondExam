@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace secondExam.Module
 {
-    class Products
+    public class Products
     {
         [Key]
         [Required]
@@ -20,6 +20,7 @@ namespace secondExam.Module
         public int Article { get; set; }
         [Required]
         public decimal MinPriceForPartner { get; set; }
+ 
         [Required]
         public TypeProduct typeProduct { get; set; }
         [Required]

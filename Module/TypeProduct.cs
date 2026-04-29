@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace secondExam.Module
 {
-    class TypeProduct
+    public class TypeProduct
     {
         [Key]
         [Required]

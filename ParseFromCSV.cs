@@ -77,7 +77,7 @@ namespace secondExam
         [Name("ИНН")]
         public string INN { get; set; }
         [Name("Рейтинг")]
-        public int Rate { get; set; }
+        public string Rate { get; set; }
 
 
     }
@@ -197,7 +197,7 @@ namespace secondExam
                             var exesting = db.Products.FirstOrDefault(p => p.typeProduct.Id == type.Id);
                             if(exesting == null)
                             {
-                                Productss = new Products() { name = item.Name, Article = item.Article, MinPriceForPartner = item.MinPriceForPartner, typeProduct = type };
+                                Productss = new Products() { name = item.Name, Article = item.Article, MinPriceForPartner = item.MinPriceForPartner, typeProduct = type,  };
 
                                 db.Add(Productss);
                             }
@@ -212,8 +212,8 @@ namespace secondExam
         }
         public void csvAddingPartnerProductsa()
         {
+          
 
-        
 
             using (var reader = new StreamReader("Partner_products_import - Partner_products_import.csv"))
             {
@@ -230,7 +230,7 @@ namespace secondExam
                             var exesting = db.PartnerProducts.FirstOrDefault(p => p.Partner.Id == partner.Id && p.Product.Id == product.Id && p.DateSale == item.DateSale);
                             if (exesting == null)
                             {
-                                var PartnerProduct = new PartnerProducts() { CountProducts = item.CountProducts, Partner = partner, DateSale = item.DateSale, Product = product };
+                                var PartnerProduct = new PartnerProducts() { CountProducts = item.CountProducts, Partner = partner, DateSale = item.DateSale, Product = product , TotalPrice= product.MinPriceForPartner * item.CountProducts};
 
                                 db.Add(PartnerProduct);
                             }
