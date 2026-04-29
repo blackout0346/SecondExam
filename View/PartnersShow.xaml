@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:secondExam.View"
         mc:Ignorable="d"
-        Title="PartnersShow" Height="450" Width="800">
+        Title="PartnersShow" Height="450" Width="800" Background="#F4E8D3">
     <Window.Resources>
 
         <Style TargetType="{x:Type TextBlock}"  >
@@ -38,9 +38,13 @@
             <RowDefinition>
             </RowDefinition>
         </Grid.RowDefinitions>
-      
-        <TextBlock x:Name="DateAndTime" Text="Дата и время" Grid.Row="0" Padding="10, 10"  Background="#F4E8D3" ></TextBlock>
-        <TextBlock Text="Пользователь: admin" Padding="10, 40"></TextBlock>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Image   Source="/View/MasterPng.png"  Height="100" Width="100" HorizontalAlignment="Left" ></Image>
+
+            <TextBlock  Text="Мастер пол"  Margin="30"></TextBlock>
+        </StackPanel>
+       
         <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" >
             <TextBlock Text="Поиск:" Grid.Row="0" VerticalAlignment="Center"  ></TextBlock>
             <TextBox x:Name="search" Grid.Row="0" Height="40" Width="200" Margin="20, 10"  TextChanged="search_TextChanged"  ></TextBox>

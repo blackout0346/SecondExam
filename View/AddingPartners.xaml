@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:secondExam.View"
         mc:Ignorable="d"
-        Title="AddingPartners" Height="500" Width="800">
+        Title="AddingPartners" Height="500" Width="800" Background="#F4E8D3">
     <Window.Resources>
 
         <Style TargetType="{x:Type TextBlock}"  >
@@ -39,6 +39,8 @@
             <RowDefinition>
             </RowDefinition>
         </Grid.RowDefinitions>
+        <TextBlock  Text="Мастер пол" Grid.ColumnSpan="2" Grid.Row="0" HorizontalAlignment="Right"  Padding="60,30"></TextBlock>
+        <Image  Grid.Row="0" Grid.ColumnSpan="2" Source="/View/MasterPng.png"  Height="50" Width="50" HorizontalAlignment="Right" ></Image>
         <StackPanel Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1"  Orientation="Vertical">
             <TextBlock Text="Тип организации *"></TextBlock>
             <ComboBox x:Name="typeOrg">
@@ -61,7 +63,7 @@
             <TextBox x:Name="Rate" ></TextBox>
 
         </StackPanel>
-        <TextBlock x:Name="DateAndTime" Grid.Column="0" Grid.ColumnSpan="2" Text="Партнёр" FontSize="20" FontWeight="Bold" Grid.Row="0" Padding="10, 10"  Background="#F4E8D3" ></TextBlock>
+        <TextBlock x:Name="DateAndTime" Grid.Column="0" Grid.ColumnSpan="2" Text="Партнёр" FontSize="20" FontWeight="Bold" Grid.Row="0" Padding="10, 10"   ></TextBlock>
         <TextBlock Text="Добавление информации о партнёре" Padding="10, 40"></TextBlock>
         <Button  Grid.Column="0"  Grid.Row="3" Foreground="White" Content="Принять" HorizontalAlignment="Center" Background="#67BA80" Click="Button_Click" ></Button>
         <Button  Grid.Column="1"  Grid.ColumnSpan="2" Grid.Row="3" Foreground="White" Content="Отмена" HorizontalAlignment="Center" Background="#F1404A" Click="Button_Click_1"></Button>

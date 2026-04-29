@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:secondExam"
         mc:Ignorable="d"
         Title="Products" Height="500" Width="900"
-      
+      Background="#F4E8D3"
         >
     <Window.Resources>
 
@@ -38,8 +38,9 @@
             <RowDefinition>
             </RowDefinition>
         </Grid.RowDefinitions>
-
-        <TextBlock Text="Продукция" FontSize="20"   Grid.Row="0"  Background="#F4E8D3" ></TextBlock>
+        <TextBlock  Text="Мастер пол"  Grid.Row="0" Margin="30" HorizontalAlignment="Right" Padding="10,10,80,0"></TextBlock>
+        <Image  Grid.Row="0"  Source="/View/MasterPng.png"  Height="100" Width="100" HorizontalAlignment="Right" ></Image>
+        <TextBlock Text="Продукция" FontSize="20"   Grid.Row="0"   ></TextBlock>
         <TextBlock Text="Поиск:" Grid.Row="0" FontSize="16" VerticalAlignment="Center" Margin="10" ></TextBlock>
         <TextBox x:Name="search" Grid.Row="0" Height="40" Width="300" Margin="70, 10" HorizontalAlignment="Left" TextChanged="search_TextChanged"  ></TextBox>
         <DataGrid x:Name="ProductTable" Grid.Row="1" AutoGenerateColumns="False">
