@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:secondExam"
         mc:Ignorable="d"
-        Title="Products" Height="500" Width="900"
+        Title="Продукция" Height="500" Width="900"
       Background="#F4E8D3"
         >
     <Window.Resources>

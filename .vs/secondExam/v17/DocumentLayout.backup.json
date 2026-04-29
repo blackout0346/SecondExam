@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 111,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -97,10 +97,6 @@
               "Name": "ST:0:0:{73068c07-fba1-453f-99ae-6edf972119b2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "AddingPartners.xaml.cs",
@@ -110,8 +106,7 @@
               "RelativeToolTip": "View\\AddingPartners.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T14:52:23.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:52:23.554Z"
             },
             {
               "$type": "Document",
@@ -123,8 +118,7 @@
               "RelativeToolTip": "View\\AddingProduct.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T14:52:18.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:52:18.352Z"
             },
             {
               "$type": "Document",
@@ -135,8 +129,7 @@
               "ToolTip": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\AddingPartners.xaml",
               "RelativeToolTip": "View\\AddingPartners.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-29T14:52:06.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:52:06.983Z"
             },
             {
               "$type": "Document",
@@ -147,8 +140,7 @@
               "ToolTip": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\ItemPartners.xaml",
               "RelativeToolTip": "View\\ItemPartners.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-29T14:46:15.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:46:15.147Z"
             },
             {
               "$type": "Document",
@@ -159,8 +151,7 @@
               "ToolTip": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\EditPartners.xaml",
               "RelativeToolTip": "View\\EditPartners.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-29T14:45:47.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:45:47.815Z"
             },
             {
               "$type": "Document",
@@ -172,8 +163,7 @@
               "RelativeToolTip": "View\\HistorySale.xaml.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAmwFUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T14:45:40.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:45:40.741Z"
             },
             {
               "$type": "Document",
@@ -184,8 +174,7 @@
               "ToolTip": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\HistorySale.xaml",
               "RelativeToolTip": "View\\HistorySale.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-29T14:44:48.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:44:48.845Z"
             },
             {
               "$type": "Document",
@@ -196,8 +185,7 @@
               "ToolTip": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\EditProducts.xaml",
               "RelativeToolTip": "View\\EditProducts.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-29T14:28:42.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:28:42.643Z"
             },
             {
               "$type": "Document",
@@ -221,8 +209,7 @@
               "RelativeToolTip": "View\\EditProducts.xaml.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAowEkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T14:28:14.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:28:14.141Z"
             },
             {
               "$type": "Document",
@@ -233,8 +220,7 @@
               "ToolTip": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\AddingProduct.xaml",
               "RelativeToolTip": "View\\AddingProduct.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-29T14:22:53.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:22:53.211Z"
             },
             {
               "$type": "Document",
@@ -246,8 +232,7 @@
               "RelativeToolTip": "View\\PartnersShow.xaml.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T14:11:20.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:11:20.996Z"
             },
             {
               "$type": "Document",
@@ -259,8 +244,7 @@
               "RelativeToolTip": "View\\ProductsU.xaml.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAwwEkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T14:11:14.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:11:14.398Z"
             },
             {
               "$type": "Document",
@@ -283,8 +267,11 @@
               "ToolTip": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\PartnersShow.xaml",
               "RelativeToolTip": "View\\PartnersShow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-29T14:11:10.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:11:10.467Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

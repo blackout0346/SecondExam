@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:secondExam.View"
         mc:Ignorable="d"
-        Title="PartnersShow" Height="450" Width="800" Background="#F4E8D3">
+        Title="Партнёры" Height="450" Width="800" Background="#F4E8D3">
     <Window.Resources>
 
         <Style TargetType="{x:Type TextBlock}"  >

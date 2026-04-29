@@ -7,28 +7,36 @@
       "RelativeMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|solutionrelative:view\\productsu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|c:\\users\\smira\\source\\repos\\secondexam\\view\\historysale.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|solutionrelative:view\\historysale.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|c:\\users\\smira\\source\\repos\\secondexam\\view\\partnersshow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|solutionrelative:view\\partnersshow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|c:\\users\\smira\\source\\repos\\secondexam\\view\\masterpng.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|solutionrelative:view\\masterpng.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|c:\\users\\smira\\source\\repos\\secondexam\\view\\itempartners.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|solutionrelative:view\\itempartners.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|c:\\users\\smira\\source\\repos\\secondexam\\view\\partnersshow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|solutionrelative:view\\partnersshow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|c:\\users\\smira\\source\\repos\\secondexam\\view\\historysale.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|solutionrelative:view\\historysale.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|c:\\users\\smira\\source\\repos\\secondexam\\view\\addingpartners.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|solutionrelative:view\\addingpartners.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|c:\\users\\smira\\source\\repos\\secondexam\\view\\editproducts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|solutionrelative:view\\editproducts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|c:\\users\\smira\\source\\repos\\secondexam\\view\\editpartners.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|solutionrelative:view\\editpartners.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|c:\\users\\smira\\source\\repos\\secondexam\\view\\addingproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|solutionrelative:view\\addingproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|c:\\users\\smira\\source\\repos\\secondexam\\view\\editpartners.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|solutionrelative:view\\editpartners.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|c:\\users\\smira\\source\\repos\\secondexam\\view\\addingpartners.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|solutionrelative:view\\addingpartners.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|c:\\users\\smira\\source\\repos\\secondexam\\view\\addingpartners.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|c:\\users\\smira\\source\\repos\\secondexam\\view\\addingproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|solutionrelative:view\\addingproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|c:\\users\\smira\\source\\repos\\secondexam\\view\\editproducts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|solutionrelative:view\\editproducts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF11256F-D00E-42AE-AAF6-CE81A9F243EF}|secondExam.csproj|c:\\users\\smira\\source\\repos\\secondexam\\view\\historysale.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 111,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Bookmark",
@@ -97,12 +101,24 @@
               "Name": "ST:0:0:{73068c07-fba1-453f-99ae-6edf972119b2}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MasterPng.png",
+              "DocumentMoniker": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\MasterPng.png",
+              "RelativeDocumentMoniker": "View\\MasterPng.png",
+              "ToolTip": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\MasterPng.png",
+              "RelativeToolTip": "View\\MasterPng.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-29T14:57:18.407Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AddingPartners.xaml.cs",
               "DocumentMoniker": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\AddingPartners.xaml.cs",
               "RelativeDocumentMoniker": "View\\AddingPartners.xaml.cs",
@@ -110,12 +126,11 @@
               "RelativeToolTip": "View\\AddingPartners.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T14:52:23.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:52:23.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AddingProduct.xaml.cs",
               "DocumentMoniker": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\AddingProduct.xaml.cs",
               "RelativeDocumentMoniker": "View\\AddingProduct.xaml.cs",
@@ -123,12 +138,11 @@
               "RelativeToolTip": "View\\AddingProduct.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T14:52:18.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:52:18.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "AddingPartners.xaml",
               "DocumentMoniker": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\AddingPartners.xaml",
               "RelativeDocumentMoniker": "View\\AddingPartners.xaml",
@@ -140,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ItemPartners.xaml",
               "DocumentMoniker": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\ItemPartners.xaml",
               "RelativeDocumentMoniker": "View\\ItemPartners.xaml",
@@ -164,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "HistorySale.xaml.cs",
               "DocumentMoniker": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\HistorySale.xaml.cs",
               "RelativeDocumentMoniker": "View\\HistorySale.xaml.cs",
@@ -172,12 +186,11 @@
               "RelativeToolTip": "View\\HistorySale.xaml.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAmwFUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T14:45:40.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:45:40.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "HistorySale.xaml",
               "DocumentMoniker": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\HistorySale.xaml",
               "RelativeDocumentMoniker": "View\\HistorySale.xaml",
@@ -189,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "EditProducts.xaml",
               "DocumentMoniker": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\EditProducts.xaml",
               "RelativeDocumentMoniker": "View\\EditProducts.xaml",
@@ -201,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "EditPartners.xaml.cs",
               "DocumentMoniker": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\EditPartners.xaml.cs",
               "RelativeDocumentMoniker": "View\\EditPartners.xaml.cs",
@@ -213,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "EditProducts.xaml.cs",
               "DocumentMoniker": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\EditProducts.xaml.cs",
               "RelativeDocumentMoniker": "View\\EditProducts.xaml.cs",
@@ -221,12 +234,11 @@
               "RelativeToolTip": "View\\EditProducts.xaml.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAowEkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T14:28:14.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:28:14.141Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AddingProduct.xaml",
               "DocumentMoniker": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\AddingProduct.xaml",
               "RelativeDocumentMoniker": "View\\AddingProduct.xaml",
@@ -238,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PartnersShow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\PartnersShow.xaml.cs",
               "RelativeDocumentMoniker": "View\\PartnersShow.xaml.cs",
@@ -246,12 +258,11 @@
               "RelativeToolTip": "View\\PartnersShow.xaml.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T14:11:20.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:11:20.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ProductsU.xaml.cs",
               "DocumentMoniker": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\ProductsU.xaml.cs",
               "RelativeDocumentMoniker": "View\\ProductsU.xaml.cs",
@@ -259,8 +270,7 @@
               "RelativeToolTip": "View\\ProductsU.xaml.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAwwEkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T14:11:14.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T14:11:14.398Z"
             },
             {
               "$type": "Document",
@@ -276,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "PartnersShow.xaml",
               "DocumentMoniker": "C:\\Users\\smira\\source\\repos\\secondExam\\View\\PartnersShow.xaml",
               "RelativeDocumentMoniker": "View\\PartnersShow.xaml",
