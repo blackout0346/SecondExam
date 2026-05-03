@@ -58,22 +58,44 @@ namespace secondExam.View
             db = new AppDbContext();
 
 
-            var query = db.Partner
-            .Include(p => p.typePartners)
+            var query = db.PartnerProducts
+            .Include(p => p.Partner)
+            .ThenInclude(p => p.typePartners)
             .AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(search.Text))
             {
-                query = query.Where(p => EF.Functions.Like(p.DirectionName, $"%{search.Text}%"));
+                query = query.Where(p => EF.Functions.Like(p.Partner.DirectionName, $"%{search.Text}%"));
 
             }
+        
 
             var results = await query.ToListAsync();
             displayPartner.Items.Clear();
+
+
             foreach (var result in results)
             {
+                int count = 0;
+                if (result.TotalPrice < 10000)
+                {
+                    count = 0;
 
-                ItemPartners itemPartners = new ItemPartners(result.Id, result.typePartners.NamePartner, result.DirectionName, result.number, result.Rate.ToString(), 12, result.URPartner);
+                }
+                else if (result.TotalPrice >= 10000 && result.TotalPrice < 50000)
+                {
+                    count = 5;
+                }
+                else if (result.TotalPrice >= 50000 && result.TotalPrice < 300000)
+                {
+                    count = 10;
+                }
+                else if (result.TotalPrice > 300000 )
+                {
+                    count = 15;
+                }
+                ItemPartners itemPartners = new ItemPartners(result.Partner.Id, result.Partner.typePartners.NamePartner, result.Partner.DirectionName, result.Partner.number, result.Partner.Rate.ToString(), count, result.Partner.URPartner);
+
                 displayPartner.Items.Add(itemPartners);
 
             }
