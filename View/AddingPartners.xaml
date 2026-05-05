@@ -44,8 +44,10 @@
         <StackPanel Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1"  Orientation="Vertical">
             <TextBlock Text="Тип организации *"></TextBlock>
             <ComboBox x:Name="typeOrg">
-                <TextBlock> OOO</TextBlock>
-                <TextBlock> ИП</TextBlock>
+                  <TextBlock> OOO</TextBlock>
+                  <TextBlock> ИП</TextBlock>
+                  <TextBlock> ЗАО</TextBlock>
+                  <TextBlock> ПАО</TextBlock>
             </ComboBox>
             <TextBlock Text="Наименование организации *"></TextBlock>
             <TextBox x:Name="NameOrg"></TextBox>
